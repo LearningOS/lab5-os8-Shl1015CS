@@ -26,3 +26,4 @@ with open("../os/Cargo.toml", 'r') as f:
         lines.append(processed)
 with open("../os/Cargo.toml", 'w+') as f:
     f.writelines(lines)
+
